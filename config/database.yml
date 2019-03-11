@@ -19,9 +19,6 @@ default: &default
   encoding: unicode
   pool: 5
   host: localhost
-  username: postgres
-  password: contramely22
-
 development:
   <<: *default
   database: beeweb_development
